@@ -1,0 +1,270 @@
+[
+  {
+    "id": "anniversary-30",
+    "title": "30th Anniversary Matsuri",
+    "titleJapanese": "30周年記念祭り",
+    "category": "festival",
+    "status": "confirmed",
+    "featured": true,
+    "start": "2026-09-19T10:30:00",
+    "end": "2026-09-19T17:30:00",
+    "timezone": "Europe/London",
+    "organiser": {
+      "name": "JSNI",
+      "url": "https://japansociety-ni.org.uk"
+    },
+    "venue": {
+      "name": "W5 LIFE at the O2 Belfast",
+      "address": "Queens Quay, BT3 9QQ",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=W5+LIFE+The+Odyssey+Queens+Quay+Belfast+BT3+9QQ"
+    },
+    "description": "A vibrant, family-friendly Japanese festival marking JSNI's 30th Anniversary, with performances, workshops, demonstrations and hands-on activities for all ages. Supported by; W5 LIFE, The Japan Society UK, Rakuten, Ryobi, Camseng, Japan Foundation and Fujitsu.",
+    "details": "Delivered by JSNI volunteers along with societies and clubs engaged in Japanese art, culture and sport. Highlights include Ibuki Taiko drumming, Japanese dance, folklore storytelling by Masako Carey, martial arts demonstrations (Belfast MET Judo, Abbey Judo, Ojika Kendo, Iaido, Sumo na hEireann), calligraphy and origami workshops, an ikebana and bonsai exhibition (NIBS), children's festival games including yo-yo fishing and goldfish scooping, and a big Obon circle dance to close the day. Entry is free, though some activities and the market require cash. Children should be accompanied by a responsible adult. JSNI membership registration for the 2026-27 season will be available on the day.",
+    "price": {
+      "amount": 0,
+      "currency": "GBP",
+      "label": "Free entry"
+    },
+    "booking": {
+      "required": false,
+      "url": "",
+      "label": ""
+    },
+    "image": "",
+    "detailUrl": "matsuri.html",
+    "tags": [
+      "30th anniversary",
+      "matsuri",
+      "festival"
+    ],
+    "ical": true
+  },
+  {
+    "id": "mela-carnival-2026",
+    "title": "Mela Carnival 2026",
+    "titleJapanese": "メーラ・カーニバル2026",
+    "category": "festival",
+    "status": "confirmed",
+    "featured": true,
+    "start": "2026-08-22T12:30:00",
+    "end": "",
+    "timezone": "Europe/London",
+    "organiser": {
+      "name": "ArtsEkta",
+      "url": "https://artsekta.org.uk"
+    },
+    "venue": {
+      "name": "City Centre",
+      "address": "Belfast",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Belfast+City+Centre"
+    },
+    "description": "Multi-cultural outdoor festival.",
+    "details": "JSNI is once again joining Mela Carnival, organised by ArtsEkta. Expect giant carnival creations, spectacular costumes, pulsating world music, dance, live performance and hundreds of community participants transforming Belfast into a vibrant celebration of culture and creativity. The celebrations don't stop there - enjoy a free afternoon of music, workshops, performances and family fun across Belfast Cathedral Quarter. Free to attend. Everyone's welcome.",
+    "price": {
+      "amount": 0,
+      "currency": "GBP",
+      "label": "Free"
+    },
+    "booking": {
+      "required": false,
+      "url": "https://belfastmela.org.uk/mela-carnival/",
+      "label": ""
+    },
+    "image": "",
+    "tags": [
+      "festival",
+      "Belfast"
+    ],
+    "ical": true
+  },
+  {
+    "id": "mela-day-2026",
+    "title": "Mela Day 2026",
+    "titleJapanese": "メーラ・デー2026",
+    "category": "festival",
+    "status": "confirmed",
+    "featured": true,
+    "start": "2026-08-30T12:00:00",
+    "end": "2026-08-30T18:00:00",
+    "timezone": "Europe/London",
+    "organiser": {
+      "name": "ArtsEkta",
+      "url": "https://artsekta.org.uk"
+    },
+    "venue": {
+      "name": "Botanic Gardens",
+      "address": "Belfast",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Botanic+Gardens+Belfast"
+    },
+    "description": "Multi-cultural outdoor festival.",
+    "details": "JSNI is once again joining Mela Day, organised by ArtsEkta. We will be at the Little Asia zone at the back of Rose Garden along with Ojika Dojo Kendo and NI Bonsai Society. Come along and dance with us, try ikebana, dress up in Japanese costume and children can have a go at our popular yo-yo fishing game!",
+    "price": {
+      "amount": 12,
+      "currency": "GBP",
+      "label": "Paid"
+    },
+    "booking": {
+      "required": true,
+      "url": "https://belfastmela.org.uk/mela-day/",
+      "label": ""
+    },
+    "image": "",
+    "tags": [
+      "festival",
+      "Belfast"
+    ],
+    "ical": true
+  },
+  {
+    "id": "autumn-fair-2026",
+    "title": "Autumn Fair",
+    "titleJapanese": "秋祭り",
+    "category": "fair",
+    "status": "confirmed",
+    "featured": true,
+    "start": "2026-09-12T12:30:00",
+    "end": "2026-09-13T17:30:00",
+    "timezone": "Europe/London",
+    "organiser": {
+      "name": "Belfast City Council",
+      "url": "https://www.belfastcity.gov.uk"
+    },
+    "venue": {
+      "name": "Botanic Gardens",
+      "address": "Belfast",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Botanic+Gardens+Belfast"
+    },
+    "description": "Food, flower exhibitions, family fun and music.",
+    "details": "JSNI will be with Northern Ireland Bonsai Society (NIBS) at the Belfast Autumn Fair to celebrate their 40th Anniversary. Come along to see their beautiful bonsai trees and have a go at  Origami with our JSNI volunteers. Organised by Belfast City Council and NIBS.",
+    "price": {
+      "amount": 0,
+      "currency": "GBP",
+      "label": "Free"
+    },
+    "booking": {
+      "required": false,
+      "url": "https://www.belfastcity.gov.uk/autumnfair",
+      "label": ""
+    },
+    "image": "",
+    "tags": [
+      "fair",
+      "Belfast"
+    ],
+    "ical": true
+  },
+  {
+    "id": "agm-cooking-2026",
+    "title": "AGM and Cooking Party",
+    "titleJapanese": "AGMと料理教室(カレー・ライス)",
+    "category": "cooking",
+    "status": "past",
+    "featured": false,
+    "start": "2026-06-13T14:00:00",
+    "end": "2026-06-13T17:00:00",
+    "timezone": "Europe/London",
+    "organiser": {
+      "name": "JSNI",
+      "url": "https://japansociety-ni.org.uk"
+    },
+    "venue": {
+      "name": "Whitehead Community Centre",
+      "address": "19 Kings Rd, Whitehead, Carrickfergus BT38 9QE",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Whitehead+Community+Centre+Kings+Road+Whitehead"
+    },
+    "description": "Our Annual General Meeting followed by a cooking party.",
+    "details": "Free for JSNI members, £10 for non-members.",
+    "price": {
+      "amount": 10,
+      "currency": "GBP",
+      "label": "£10 non-members; free for members"
+    },
+    "booking": {
+      "required": false,
+      "url": "",
+      "label": ""
+    },
+    "image": "",
+    "tags": [
+      "AGM",
+      "cooking"
+    ],
+    "ical": true
+  },
+  {
+    "id": "ohanami-2026",
+    "title": "Ohanami - Cherry Blossom Viewing Picnic",
+    "titleJapanese": "お花見：ピクニック",
+    "category": "social",
+    "status": "past",
+    "featured": false,
+    "start": "2026-04-25T13:30:00",
+    "end": "2026-04-25T17:00:00",
+    "timezone": "Europe/London",
+    "organiser": {
+      "name": "JSNI",
+      "url": "https://japansociety-ni.org.uk"
+    },
+    "venue": {
+      "name": "Sir Thomas and Lady Dixon Park",
+      "address": "Belfast BT17 9LA",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sir+Thomas+and+Lady+Dixon+Park+Belfast"
+    },
+    "description": "Cherry blossom viewing picnic.",
+    "details": "This event is free, but please bring your own lunch, and maybe something to share with others.",
+    "price": {
+      "amount": 0,
+      "currency": "GBP",
+      "label": "Free"
+    },
+    "booking": {
+      "required": false,
+      "url": "",
+      "label": ""
+    },
+    "image": "",
+    "tags": [
+      "ohanami",
+      "picnic"
+    ],
+    "ical": true
+  },
+  {
+    "id": "garden-volunteering-2026",
+    "title": "Japanese Garden Volunteering",
+    "titleJapanese": "日本庭園でのボランティア活動",
+    "category": "volunteering",
+    "status": "past",
+    "featured": false,
+    "start": "2026-06-20T09:00:00",
+    "end": "2026-06-20T12:00:00",
+    "timezone": "Europe/London",
+    "organiser": {
+      "name": "JSNI",
+      "url": "https://japansociety-ni.org.uk"
+    },
+    "venue": {
+      "name": "Sir Thomas and Lady Dixon Park",
+      "address": "Belfast BT17 9LA",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sir+Thomas+and+Lady+Dixon+Park+Belfast"
+    },
+    "description": "Help maintain a public Japanese Garden.",
+    "details": "Meet at Upper Carpark.",
+    "price": {
+      "amount": 0,
+      "currency": "GBP",
+      "label": "Free"
+    },
+    "booking": {
+      "required": false,
+      "url": "",
+      "label": ""
+    },
+    "image": "",
+    "tags": [
+      "garden",
+      "volunteering"
+    ],
+    "ical": true
+  }
+]
