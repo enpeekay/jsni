@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Event | JSNI</title>
+      <meta name="description" content="JSNI event details">
+      <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+      <div class="site-shell">
+            <header class="site-header hero-three"><a class="logo" href="index.html"><img src="images/h1_logo.png"
+                              alt="JSNI | Japan Society of Northern Ireland"></a></header>
+            <nav class="site-nav" aria-label="Main navigation">
+                  <div class="nav-inner">
+                        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu
+                              ☰</button>
+                        <ul class="nav-links" id="nav-links">
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="about.html">About JSNI</a></li>
+                              <li><a href="events.html" aria-current="page">Our Events</a></li>
+                              <li><a href="matsuri.html" data-page="matsuri">30th Anniversary Matsuri</a></li>
+                              <li><a href="members.html">Members</a></li>
+                              <li><a href="corporate.html">Corporate Membership</a></li>
+                              <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                  </div>
+            </nav>
+            <main>
+                  <div class="layout">
+                        <section class="content" id="event-detail">
+                              <p>Loading event…</p>
+                        </section>
+                        <aside class="sidebar">
+                              <section class="pod">
+                                    <h3>Next Event<br><span class="japanese">次のイベント</span></h3>
+                                    <div data-next-event>
+                                          <p>Loading…</p>
+                                    </div>
+                              </section>
+                        </aside>
+                  </div>
+            </main>
+            <footer class="site-footer">
+                  <nav class="footer-nav"><a href="index.html">Home</a><a href="events.html">Our Events</a><a
+                              href="matsuri.html">30th Anniversary Matsuri</a><a href="members.html">Members</a><a
+                              href="contact.html">Contact</a></nav>
+                  <div>© <span id="year"></span> JSNI</div>
+            </footer>
+      </div>
+      <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+      <script src="assets/site.js" defer></script>
+      <script src="assets/events.js" defer></script>
+</body>
+
+</html>

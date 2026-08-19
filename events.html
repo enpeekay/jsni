@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en-GB"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Events | JSNI</title>
+<meta name="description" content="Promoting a greater understanding within Northern Ireland of Japan, its people, culture and language.">
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<div class="site-shell">
+<header class="site-header hero-three">
+  <a class="logo" href="index.html"><img src="images/h1_logo.png" alt="JSNI | Japan Society of Northern Ireland"></a>
+</header>
+
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="nav-inner">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu ☰</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" data-page="home">Home</a></li>
+      <li><a href="about.html" data-page="about">About JSNI</a></li>
+      <li><a href="events.html" data-page="events" aria-current="page">Our Events</a></li>
+      <li><a href="matsuri.html" data-page="matsuri">30th Anniversary Matsuri</a></li>
+      <li><a href="members.html" data-page="members">Members</a></li>
+      <li><a href="corporate.html" data-page="corporate">Corporate Membership</a></li>
+      <li><a href="contact.html" data-page="contact">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main><div class="layout"><section class="content">
+<h1>Our Events</h1>
+
+<div class="view-toggle" role="group" aria-label="Choose event view">
+  <button type="button" id="view-list-btn" aria-pressed="true">List View</button>
+  <button type="button" id="view-calendar-btn" aria-pressed="false">Calendar View</button>
+</div>
+
+<div id="list-view">
+  <h2>Upcoming Events<br><span class="japanese">今後のイベント</span></h2>
+  <div class="event-list" data-events="upcoming"><p>Loading…</p></div>
+  <h2>Past Events<br><span class="japanese">過去のイベント</span></h2>
+  <div class="event-list" data-events="past"><p>Loading…</p></div>
+  <div class="notice"><a href="https://www.facebook.com/groups/japansocietyni/" target="_blank" rel="noopener">Keep up-to-date with all our events on our Facebook Group »</a></div>
+</div>
+
+<div id="calendar-view" hidden>
+  <p>Browse all JSNI events on a calendar. Filter by keyword or category, then select an event for full details.</p>
+  <div class="calendar-toolbar">
+    <label>Search <input id="event-search" type="search" placeholder="Search events…"></label>
+    <label>Category <select id="event-category"><option value="">All categories</option></select></label>
+    <button class="button" id="clear-filters" type="button">Clear</button>
+  </div>
+  <div id="fc-calendar"></div>
+</div>
+
+</section>
+    <aside class="sidebar">
+      <section class="pod">
+        <h3>Next Event<br><span class="japanese">次のイベント</span></h3>
+        <div data-next-event><p>Loading…</p></div>
+      </section>
+      <section class="pod social">
+        <h3>Join Our FB Group</h3>
+        <p>Talk to our members, get help and keep up-to-date with our events.</p>
+        <a data-facebook href="#" target="_blank" rel="noopener"><img src="images/social_fb.png" alt="Facebook"></a>
+      </section>
+    </aside></div></main>
+
+<footer class="site-footer">
+  <nav class="footer-nav" aria-label="Footer navigation">
+    <a href="index.html">Home</a><a href="about.html">About JSNI</a>
+    <a href="events.html">Our Events</a><a href="matsuri.html">30th Anniversary Matsuri</a><a href="members.html">Members</a>
+    <a href="corporate.html">Corporate Membership</a><a href="contact.html">Contact Us</a>
+  </nav>
+  <div>&copy; <span id="year"></span> JSNI</div>
+</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<script src="assets/site.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js" defer></script>
+<script src="assets/calendar.js" defer></script>
+<script>
+(function(){
+  var listBtn = document.getElementById('view-list-btn');
+  var calBtn = document.getElementById('view-calendar-btn');
+  var listView = document.getElementById('list-view');
+  var calView = document.getElementById('calendar-view');
+
+  function setView(view) {
+    var isCal = view === 'calendar';
+    listView.hidden = isCal;
+    calView.hidden = !isCal;
+    listBtn.setAttribute('aria-pressed', String(!isCal));
+    calBtn.setAttribute('aria-pressed', String(isCal));
+    var url = new URL(location.href);
+    if (isCal) { url.searchParams.set('view', 'calendar'); }
+    else { url.searchParams.delete('view'); }
+    history.replaceState(null, '', url);
+    // FullCalendar can't measure its size while its container is hidden,
+    // so nudge it to re-measure once it becomes visible.
+    if (isCal && window.jsniCalendar) { window.jsniCalendar.updateSize(); }
+  }
+
+  listBtn.addEventListener('click', function () { setView('list'); });
+  calBtn.addEventListener('click', function () { setView('calendar'); });
+
+  var startView = new URLSearchParams(location.search).get('view') === 'calendar' ? 'calendar' : 'list';
+  setView(startView);
+})();
+</script>
+
+</div></body></html>

@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en-GB"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Members | JSNI</title>
+<title>Contact Us | JSNI</title>
 <meta name="description" content="Promoting a greater understanding within Northern Ireland of Japan, its people, culture and language.">
 <link rel="stylesheet" href="assets/style.css">
 </head><body>
 <div class="site-shell">
-<header class="site-header hero-five">
+<header class="site-header hero-seven">
   <a class="logo" href="index.html"><img src="images/h1_logo.png" alt="JSNI | Japan Society of Northern Ireland"></a>
 </header>
 
@@ -18,22 +18,43 @@
       <li><a href="about.html" data-page="about">About JSNI</a></li>
       <li><a href="events.html" data-page="events">Our Events</a></li>
       <li><a href="matsuri.html" data-page="matsuri">30th Anniversary Matsuri</a></li>
-      <li><a href="members.html" data-page="members" aria-current="page">Members</a></li>
+      <li><a href="members.html" data-page="members">Members</a></li>
       <li><a href="corporate.html" data-page="corporate">Corporate Membership</a></li>
-      <li><a href="contact.html" data-page="contact">Contact Us</a></li>
+      <li><a href="contact.html" data-page="contact" aria-current="page">Contact Us</a></li>
     </ul>
   </div>
 </nav>
 
 <main><div class="layout"><section class="content">
-<h1>Members</h1>
-<table>
-<tr><th>Membership Term</th><td>One year. Membership is for one year (September until June) and is renewed in September.</td></tr>
-<tr><th>Memberships</th><td>Individuals: £17.00<br>Families: £27.00<br>Students: £12.00<br>Senior citizens: £12.00</td></tr>
-<tr><th>How to Join</th><td>Please download and complete the <a data-application-form href="#" target="_blank" rel="noopener">Application Form</a> and bring it, along with your membership fee, to one of our meetings.</td></tr>
-<tr><th>How to Pay</th><td>You can pay in cash or cheque at any of our meetings. The cheque should be made payable to <strong>"Japan Society of Northern Ireland"</strong>.</td></tr>
-<tr><th>Any Questions?</th><td>Please <a href="contact.html">Contact Us »</a></td></tr>
-</table>
+<h1>Contact Us</h1>
+<p>Please join the <strong><a data-facebook href="#" target="_blank" rel="noopener">JSNI Facebook community page</a></strong> if you have questions regarding:</p>
+<ul><li>General Japanese culture questions</li><li>Japanese classes in Northern Ireland</li><li>Japanese text translation or translators for a project</li><li>Information on how to become a teacher in Japan</li><li>Employing Japanese-speaking staff</li><li>Being notified of our events</li></ul>
+<p>This is where you can talk to a wide range of people, from Japan, Northern Ireland and further afield, who may have better information on your specific question than the JSNI committee. It is also where we post most regularly about our events. Just request membership!</p>
+<p>If you would like to become a member of the society, please ask at one of our events, or visit our <a href="members.html">Members page »</a></p>
+<hr>
+<p><strong>ONLY</strong> use the form below if you have a question specifically for the JSNI committee. Any questions that do not fit into this category may not be answered.</p>
+<div class="form-wrap">
+  <iframe id="JotFormIFrame-63034729647361"
+    title="JSNI Contact Form"
+    src="https://form.jotform.com/63034729647361"
+    allow="geolocation; microphone; camera"
+    style="width:1px; min-width:100%; height:900px; border:0"
+    scrolling="no"></iframe>
+</div>
+<script>
+window.handleJotformMessage = function(e) {
+  if (!e || typeof e.data !== "string") return;
+  var args = e.data.split(":");
+  var iframe = document.getElementById("JotFormIFrame-63034729647361");
+  if (!iframe) return;
+  if (args[0] === "setHeight" && args[1]) iframe.style.height = args[1] + "px";
+  if (args[0] === "scrollIntoView") iframe.scrollIntoView();
+  if (args[0] === "collapseErrorPage" && iframe.clientHeight > window.innerHeight) {
+    iframe.style.height = window.innerHeight + "px";
+  }
+};
+window.addEventListener("message", window.handleJotformMessage, false);
+</script>
 </section>
     <aside class="sidebar">
       <section class="pod">
