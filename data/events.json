@@ -266,5 +266,80 @@
       "volunteering"
     ],
     "ical": true
+  },
+  {
+    "id": "garden-volunteering-2026-2",
+    "title": "Japanese Garden Volunteering",
+    "titleJapanese": "日本庭園でのボランティア活動",
+    "category": "volunteering",
+    "status": "confirmed",
+    "featured": false,
+    "start": "2026-10-17T09:00:00",
+    "end": "2026-10-17T12:00:00",
+    "timezone": "Europe/London",
+    "organiser": {
+      "name": "JSNI",
+      "url": "https://japansociety-ni.org.uk"
+    },
+    "venue": {
+      "name": "Sir Thomas and Lady Dixon Park",
+      "address": "Belfast BT17 9LA",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sir+Thomas+and+Lady+Dixon+Park+Belfast"
+    },
+    "description": "Help maintain a public Japanese Garden. Booking is essential.",
+    "details": "Meet at Upper Carpark.",
+    "price": {
+      "amount": 0,
+      "currency": "GBP",
+      "label": "Free"
+    },
+    "booking": {
+      "required": true,
+      "url": "",
+      "label": ""
+    },
+    "image": "",
+    "tags": [
+      "garden",
+      "volunteering"
+    ],
+    "ical": true
+  },
+  {
+    "id": "language-exchange-2026",
+    "title": "Language Exchange Evening",
+    "titleJapanese": "言語交流会",
+    "category": "workshop",
+    "status": "confirmed",
+    "featured": false,
+    "start": "2026-11-14T19:00:00",
+    "end": "2026-11-14T21:00:00",
+    "timezone": "Europe/London",
+    "organiser": {
+      "name": "JSNI",
+      "url": "https://japansociety-ni.org.uk"
+    },
+    "venue": {
+      "name": "Olive Tree House, Arts Ekta Building",
+      "address": "23 Fountain Street, Belfast BT1 5EA",
+      "mapUrl": "https://share.google/MJ0oL4XN7TvH1bNzu"
+    },
+    "description": "Have fun learning and speaking Japanese together at this popular event through games and quizzes.",
+    "details": "This year's theme is onomatopoeia in Japanese and in English. Anyone interested in the Japanese language is welcome. Free for JSNI members and £10 for non-members.",
+    "price": {
+      "amount": 0,
+      "currency": "GBP",
+      "label": "Free"
+    },
+    "booking": {
+      "required": false,
+      "url": "",
+      "label": ""
+    },
+    "image": "",
+    "tags": [
+      "language"
+    ],
+    "ical": true
   }
 ]
